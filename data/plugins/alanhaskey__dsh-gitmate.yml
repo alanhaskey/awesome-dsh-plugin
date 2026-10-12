@@ -2,5 +2,5 @@ url: https://github.com/alanhaskey/dsh-gitmate
 name: alanhaskey/dsh-gitmate
 category: git
 description:
-  en: 'Git panel in the right sidebar plus ten agent tools: per-file add/remove counts, diffs rendered the way an editor shows them (two line-number gutters, tinted rows, and only the changed span of a replaced line highlighted), commit messages generated from the staged diff, a commit graph covering every branch whose commits expand to their full message and file list and can be rewound to, and one-click .gitignore generation.'
-  zh: '右侧栏的 Git 面板与十个 Agent 工具：每个改动文件直接显示增删行数，差异按编辑器的方式渲染（左右两个行号栏、整行底色、被替换的行只标记真正变化的那一段），提交说明根据暂存改动生成，提交图覆盖全部分支且每个提交可展开看到完整信息与文件清单、可回滚到该提交，以及一键生成 .gitignore。'
+  en: 'Git panel in the right sidebar plus fifteen agent tools. Diffs render the way an editor shows them, a commit graph covers every branch and expands to each commit''s files and their diffs, and staged work can be reviewed, split into standalone commits, or committed with a generated message. Model output is validated against the change set before it is shown, and nothing is committed, pushed, or repaired automatically.'
+  zh: '右侧栏的 Git 面板与十五个 Agent 工具。差异按编辑器的方式渲染，提交图覆盖全部分支、可展开到每个提交的文件与差异，暂存的改动可以先审阅、拆成若干独立提交，或用生成的说明提交。模型的输出会先对着改动集校验再展示，而且不会自动提交、推送或修复任何东西。'
